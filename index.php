@@ -12,25 +12,25 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container py-5">
         <div class="row">
             <div class="col-12">
-                <h1>Hide Bad Word</h1>
+                <h1 class="text-success text-center fw-bolder">------------ HIDE BAD WORD ------------</h1>
             </div>
-            <div class="col-12">
+            <div class="col-12 py-3">
                 <form action="reply.php" method="GET">
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <div class="col-6">
-                            <label for="control-label">Inserisci il testo</label>
+                            <h3 class="text-success fs-4 pb-3 text-center fw-bolder text-uppercase">- Inserisci il testo -</h3>
                             <textarea class="form-control" aria-label="With textarea" rows="15" cols="50" name="paragraph"></textarea>
                         </div>
                     </div>
-                    <div class="row py-5">
+                    <div class="row py-5 justify-content-center">
                         <div class="col-3">
-                            <label for="control-label">Bad Word:</label>
+                            <h3 class="text-success fs-4 py-2 text-center fw-bolder text-uppercase">- Bad Word -</h3>
                             <input type="text" class="form-control" placeholder="Inserisci la parola" name="badword">
                         </div>
-                        <div class="col-12">
+                        <div class="col-12 py-4 d-flex justify-content-center">
                             <button type="submit" class="btn btn-success">HIDE WORD</button>
                         </div>
                     </div>
